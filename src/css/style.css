@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+}
+.row100{
+    width: 100px;
+}
+
+.row200{
+    width: 200px;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    padding: 5px 10px;
+}
+
+.GradesHeader, .GradeNameInput{
+    margin: 15px auto;
+}
+.menuTitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menuItem{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.iconContainer{
+    width: 300px !important;
+
+}
+
+.iconContainer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.income-sum, .sumPositive{
+    font-weight: bold;
+    color: black;
+}
+
+.expense-sum, .sumNegative{
+    font-weight: bold;
+    color: red;
+}
+.costForm{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #e8e8e8
+}
